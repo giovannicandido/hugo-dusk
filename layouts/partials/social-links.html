@@ -21,4 +21,8 @@
   <a href="https://www.linkedin.com/in/{{.}}" target="_blank"><div class="social-link">in</div></a>
   {{end}}
 
+  {{with .Site.Params.keybase}}
+  <a href="https://keybase.io/{{.}}" target="_blank"><div class="social-link">keybase</div></a>
+  {{end}}
+
 </div>
