@@ -20,6 +20,10 @@
   <a href="https://www.linkedin.com/in/{{.}}" target="_blank"><div class="social-link">LinkedIn</div></a>
   {{end}}
 
+  {{with .Site.Params.keybase}}
+  <a href="https://keybase.io/{{.}}" target="_blank"><div class="social-link">Keybase</div></a>
+  {{end}}
+
   <div class="social-link">
   <a href="{{ .Site.RSSLink }}" target="_blank">RSS</a>
   </div>
